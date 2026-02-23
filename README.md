@@ -23,4 +23,4 @@ A virus outbreak strikes **Paragon University**, turning students and staff into
 - **Shoot:** `Space`
 
 ## AI
-- **Chatgpt: "Make this into my README" & "Asking how to correctly put my collision"
+- **Chatgpt:** "Make this into my README" & "Asking how to correctly put my collision"
