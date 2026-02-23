@@ -1,0 +1,35 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1700255344
+ammo.gd::GDScript::-1::1700254538::0::1::::<>Area3D<>::
+ammo.tscn::PackedScene::8836222020999994115::1700255200::0::1::::<><>::res://ammo.gd<>uid://d30622fni0ylg::::res://wolf-items.png
+bjface.png::CompressedTexture2D::1881628147893854800::1697663698::1697663698::1::::<><>::
+global.gd::GDScript::-1::1700254005::0::1::::<>Node<>::
+grey stone wall.png::CompressedTexture2D::6478164810633078953::1696205553::1696462342::1::::<><>::
+guard.gd::GDScript::-1::1699133029::0::1::::<>CharacterBody3D<>::
+guard.png::CompressedTexture2D::7456954827626977516::1696821479::1696821502::1::::<><>::
+guard.tscn::PackedScene::555874381962533735::1700255200::0::1::::<><>::res://guard.gd<>uid://deig7r0x4rkci::::res://guard.png
+gun.ogg::AudioStreamOggVorbis::7093238095048363431::1700254657::1700254657::1::::<><>::
+hudgun.png::CompressedTexture2D::1442541652221749979::1699136272::1699136272::1::::<><>::
+hudknife.png::CompressedTexture2D::7628156640426028931::1699136272::1699136272::1::::<><>::
+hudmachinegun.png::CompressedTexture2D::1865007415778492840::1699136272::1699136272::1::::<><>::
+hudmini.png::CompressedTexture2D::5417260163317417300::1699136272::1699136272::1::::<><>::
+icon.svg::CompressedTexture2D::5106867302232566508::1696109471::1696207587::1::::<><>::
+level_2.tscn::PackedScene::7670694392851493013::1700255261::0::1::::<><>::uid://bctc6myitmqfv::::res://stone floor.png<>uid://cykcosyrs6o3b::::res://grey stone wall.png<>uid://h6jf1mbtloh0::::res://guard.tscn<>uid://dx5ljyjcdbnih::::res://ammo.tscn<>uid://2s0oth74dthn::::res://player.tscn
+machine.gd::GDScript::-1::1700254204::0::1::::<>Area3D<>::
+machine.ogg::AudioStreamOggVorbis::3382120972887667514::1700254657::1700254657::1::::<><>::
+machine.tscn::PackedScene::5304251926201776806::1700255201::0::1::::<><>::res://machine.gd<>uid://d30622fni0ylg::::res://wolf-items.png
+medkit.gd::GDScript::-1::1699140539::0::1::::<>Area3D<>::
+medkit.tscn::PackedScene::6428626511616757533::1700255201::0::1::::<><>::res://medkit.gd<>uid://d30622fni0ylg::::res://wolf-items.png
+mini.gd::GDScript::-1::1700254175::0::1::::<>Area3D<>::
+mini.ogg::AudioStreamOggVorbis::737926944902655164::1700254657::1700254657::1::::<><>::
+mini.tscn::PackedScene::5685252167251290759::1700255201::0::1::::<><>::res://mini.gd<>uid://d30622fni0ylg::::res://wolf-items.png
+player.gd::GDScript::-1::1700255035::0::1::::<>CharacterBody3D<>::
+player.tscn::PackedScene::1933801513983891567::1700255200::0::1::::<><>::res://player.gd<>uid://b3itrgr2kr0yr::::res://ui.tscn
+stone floor.png::CompressedTexture2D::2566199009637758095::1696205625::1696462372::1::::<><>::
+ui.gd::GDScript::-1::1699140460::0::1::::<>CanvasLayer<>::
+ui.tscn::PackedScene::4369407651592025709::1700255200::0::1::::<><>::uid://b21ilfiqqgd5m::::res://wolfweapons.png<>res://ui.gd<>uid://12qe1vsoy0y3::::res://bjface.png
+wolf-items.png::CompressedTexture2D::9178090986463734788::1697341509::1697341640::1::::<><>::
+wolf.tres::SystemFont::3245702049787307573::1697229021::0::1::::<><>::
+wolfweapons.png::CompressedTexture2D::4335698938924389700::1696467398::1696467399::1::::<><>::
+world.gd::GDScript::-1::1700255143::0::1::::<>Node3D<>::
+world.tscn::PackedScene::1604862394934779399::1700255200::0::1::::<><>::res://world.gd<>uid://2s0oth74dthn::::res://player.tscn<>uid://bctc6myitmqfv::::res://stone floor.png<>uid://cykcosyrs6o3b::::res://grey stone wall.png<>uid://h6jf1mbtloh0::::res://guard.tscn<>uid://dx5ljyjcdbnih::::res://ammo.tscn<>uid://cm88jjdbvf1nn::::res://mini.tscn<>uid://chtoiv6twheoc::::res://machine.tscn<>uid://cxucsltb83ulh::::res://medkit.tscn
