@@ -22,5 +22,8 @@ A virus outbreak strikes **Paragon University**, turning students and staff into
 - **Move:** `W A S D`
 - **Shoot:** `Space`
 
+## Assets
+- https://www.realm667.com/
+
 ## AI
 - **Chatgpt:** "Make this into my README" & "Asking how to correctly put my collision"
