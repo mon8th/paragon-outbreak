@@ -1,0 +1,281 @@
+[gd_scene load_steps=5 format=3 uid="uid://dv3jruy6tpruu"]
+
+[ext_resource type="PackedScene" path="res://src/world/roof.tscn" id="1"]
+[ext_resource type="PackedScene" path="res://src/world/floor.tscn" id="2"]
+[ext_resource type="PackedScene" path="res://src/world/wall.tscn" id="3"]
+[ext_resource type="PackedScene" uid="uid://2s0oth74dthn" path="res://scene/player.tscn" id="4_uxida"]
+
+[node name="World" type="Node3D"]
+
+[node name="worldNodes" type="Node3D" parent="."]
+
+[node name="roof" parent="worldNodes" instance=ExtResource("1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 6, 0)
+
+[node name="floor" parent="worldNodes" instance=ExtResource("2")]
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="worldNodes"]
+transform = Transform3D(1, 0, 0, 0, -0.0410212, 0.999158, 0, -0.999158, -0.0410212, 0, 2, 0)
+visible = false
+light_color = Color(0.721569, 0.756863, 0.372549, 1)
+light_indirect_energy = 16.0
+
+[node name="OmniLight3D" type="OmniLight3D" parent="worldNodes"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 3.8942, 0)
+light_color = Color(0.921569, 0.866667, 0.0313726, 1)
+light_energy = 1.32
+light_indirect_energy = 16.0
+omni_range = 16.0
+
+[node name="floor2" parent="worldNodes" instance=ExtResource("2")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9.999493, 0, 0)
+
+[node name="floor3" parent="worldNodes" instance=ExtResource("2")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 19.973516, 0, 0)
+
+[node name="floor4" parent="worldNodes" instance=ExtResource("2")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 11.960756)
+
+[node name="floor5" parent="worldNodes" instance=ExtResource("2")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9.999493, 0, 11.960756)
+
+[node name="floor6" parent="worldNodes" instance=ExtResource("2")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 19.973516, 0, 11.960756)
+
+[node name="floor7" parent="worldNodes" instance=ExtResource("2")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -11.9829445)
+
+[node name="floor8" parent="worldNodes" instance=ExtResource("2")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9.999493, 0, -11.9829445)
+
+[node name="floor9" parent="worldNodes" instance=ExtResource("2")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 19.973516, 0, -11.9829445)
+
+[node name="wall" parent="worldNodes" instance=ExtResource("3")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.0723801, 3.0602965, -17.704254)
+
+[node name="wall2" parent="worldNodes" instance=ExtResource("3")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 13.020768, 3.0602965, -17.704254)
+
+[node name="wall3" parent="worldNodes" instance=ExtResource("3")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 22.15606, 3.0602965, -17.704254)
+
+[node name="wall4" parent="worldNodes" instance=ExtResource("3")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 31.063473, 3.0602965, -5.951089)
+
+[node name="wall5" parent="worldNodes" instance=ExtResource("3")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 43.035786, 3.0602965, -5.9245863)
+
+[node name="wall6" parent="worldNodes" instance=ExtResource("3")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 48.348873, 3.0602965, -5.962185)
+
+[node name="wall7" parent="worldNodes" instance=ExtResource("3")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 1.117979, 3, 17.764101)
+
+[node name="worldNodes2" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 32.014713, 0, 0)
+
+[node name="roof" parent="worldNodes2" instance=ExtResource("1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 6, 0)
+
+[node name="floor" parent="worldNodes2" instance=ExtResource("2")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.1005478, 0, 0)
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="worldNodes2"]
+transform = Transform3D(1, 0, 0, 0, -0.0410212, 0.999158, 0, -0.999158, -0.0410212, 0, 2, 0)
+visible = false
+light_color = Color(0.721569, 0.756863, 0.372549, 1)
+light_indirect_energy = 16.0
+
+[node name="OmniLight3D" type="OmniLight3D" parent="worldNodes2"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 3.8942, 0)
+light_color = Color(0.921569, 0.866667, 0.0313726, 1)
+light_energy = 1.32
+light_indirect_energy = 16.0
+omni_range = 16.0
+
+[node name="floor2" parent="worldNodes2" instance=ExtResource("2")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.672886, 0, 0)
+
+[node name="floor3" parent="worldNodes2" instance=ExtResource("2")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 17.659771, 0, 0)
+
+[node name="floor4" parent="worldNodes2" instance=ExtResource("2")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 27.433205, 0, 0)
+
+[node name="floor5" parent="worldNodes2" instance=ExtResource("2")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 27.417683, 0, -11.997808)
+
+[node name="floor6" parent="worldNodes2" instance=ExtResource("2")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 27.433205, 0, 11.831249)
+
+[node name="floor7" parent="worldNodes2" instance=ExtResource("2")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 27.433205, 0, 23.647865)
+
+[node name="worldNodes3" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 60.22594, 0, -23.350018)
+
+[node name="roof" parent="worldNodes3" instance=ExtResource("1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 6, 0)
+
+[node name="floor" parent="worldNodes3" instance=ExtResource("2")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.81973267, -0.015995026, -0.5731354)
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="worldNodes3"]
+transform = Transform3D(1, 0, 0, 0, -0.0410212, 0.999158, 0, -0.999158, -0.0410212, 0, 2, 0)
+visible = false
+light_color = Color(0.721569, 0.756863, 0.372549, 1)
+light_indirect_energy = 16.0
+
+[node name="OmniLight3D" type="OmniLight3D" parent="worldNodes3"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 3.8942, 0)
+light_color = Color(0.921569, 0.866667, 0.0313726, 1)
+light_energy = 1.32
+light_indirect_energy = 16.0
+omni_range = 16.0
+
+[node name="floor2" parent="worldNodes3" instance=ExtResource("2")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.84360504, -0.095003605, -12.309757)
+
+[node name="floor3" parent="worldNodes3" instance=ExtResource("2")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.846802, -0.095003605, -12.309757)
+
+[node name="floor4" parent="worldNodes3" instance=ExtResource("2")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -20.620464, -0.095003605, -12.309757)
+
+[node name="floor5" parent="worldNodes3" instance=ExtResource("2")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -20.620464, -0.095003605, -24.01447)
+
+[node name="floor6" parent="worldNodes3" instance=ExtResource("2")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -20.620464, -0.095003605, -35.935543)
+
+[node name="floor7" parent="worldNodes3" instance=ExtResource("2")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -30.581295, -0.095003605, -35.935543)
+
+[node name="floor8" parent="worldNodes3" instance=ExtResource("2")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.6851692, -0.095003605, -35.935543)
+
+[node name="floor9" parent="worldNodes3" instance=ExtResource("2")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.646, -0.095003605, -35.935543)
+
+[node name="wall5" parent="worldNodes3" instance=ExtResource("3")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.2532005, 3.0602965, -17.978806)
+
+[node name="wall6" parent="worldNodes3" instance=ExtResource("3")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.51458, 3.0602965, -17.978806)
+
+[node name="wall7" parent="worldNodes3" instance=ExtResource("3")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -17.364853, 3.0602965, -41.657368)
+
+[node name="wall8" parent="worldNodes3" instance=ExtResource("3")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.320568, 3.0602965, -41.657368)
+
+[node name="wall9" parent="worldNodes3" instance=ExtResource("3")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -29.28292, 3.0602965, -41.657368)
+
+[node name="wall10" parent="worldNodes3" instance=ExtResource("3")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.6318016, 3.0602965, -41.657368)
+
+[node name="wall11" parent="worldNodes3" instance=ExtResource("3")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.5871391, 3.0602965, -41.657368)
+
+[node name="Player" parent="." instance=ExtResource("4_uxida")]
+
+[node name="worldNodes4" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 81.045235, -0.08614445, -57.705833)
+
+[node name="roof" parent="worldNodes4" instance=ExtResource("1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 6, 0)
+
+[node name="floor" parent="worldNodes4" instance=ExtResource("2")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5156403, 0, 0)
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="worldNodes4"]
+transform = Transform3D(1, 0, 0, 0, -0.0410212, 0.999158, 0, -0.999158, -0.0410212, 0, 2, 0)
+visible = false
+light_color = Color(0.721569, 0.756863, 0.372549, 1)
+light_indirect_energy = 16.0
+
+[node name="OmniLight3D" type="OmniLight3D" parent="worldNodes4"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 3.8942, 0)
+light_color = Color(0.921569, 0.866667, 0.0313726, 1)
+light_energy = 1.32
+light_indirect_energy = 16.0
+omni_range = 16.0
+
+[node name="floor2" parent="worldNodes4" instance=ExtResource("2")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.483856, 0, 0)
+
+[node name="floor3" parent="worldNodes4" instance=ExtResource("2")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 18.457878, 0, 0)
+
+[node name="floor4" parent="worldNodes4" instance=ExtResource("2")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5156403, 0, 11.960754)
+
+[node name="floor5" parent="worldNodes4" instance=ExtResource("2")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.483856, 0, 11.960754)
+
+[node name="floor6" parent="worldNodes4" instance=ExtResource("2")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 18.457878, 0, 11.960754)
+
+[node name="floor7" parent="worldNodes4" instance=ExtResource("2")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5156403, 0, -11.982948)
+
+[node name="floor8" parent="worldNodes4" instance=ExtResource("2")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.483856, 0, -11.982948)
+
+[node name="floor9" parent="worldNodes4" instance=ExtResource("2")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 18.457878, 0, -11.982948)
+
+[node name="floor10" parent="worldNodes4" instance=ExtResource("2")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11.48597, 0, -1.6031075)
+
+[node name="wall8" parent="worldNodes4" instance=ExtResource("3")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 11.058311, 3.1446238, -17.539093)
+
+[node name="wall9" parent="worldNodes4" instance=ExtResource("3")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 17.530525, 3.1446238, -17.539093)
+
+[node name="wall10" parent="worldNodes4" instance=ExtResource("3")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.72927856, 3.1446238, -17.539093)
+
+[node name="worldNodes5" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 32.02938)
+
+[node name="roof" parent="worldNodes5" instance=ExtResource("1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 6, 0)
+
+[node name="floor" parent="worldNodes5" instance=ExtResource("2")]
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="worldNodes5"]
+transform = Transform3D(1, 0, 0, 0, -0.0410212, 0.999158, 0, -0.999158, -0.0410212, 0, 2, 0)
+visible = false
+light_color = Color(0.721569, 0.756863, 0.372549, 1)
+light_indirect_energy = 16.0
+
+[node name="DirectionalLight2" type="DirectionalLight3D" parent="worldNodes5"]
+transform = Transform3D(0.877678, 0.0462055, 0.477017, 0.469348, 0.118411, -0.875038, -0.0969156, 0.991889, 0.0822403, 0, 2, 0)
+light_color = Color(0.917647, 0.933333, 0.764706, 1)
+light_energy = 0.48
+light_indirect_energy = 16.0
+light_specular = 0.74
+shadow_enabled = true
+
+[node name="wall" parent="worldNodes5" instance=ExtResource("3")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 3, -6)
+
+[node name="wall2" parent="worldNodes5" instance=ExtResource("3")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 0, 3, 6)
+
+[node name="wall3" parent="worldNodes5" instance=ExtResource("3")]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -5, 3, 0)
+
+[node name="wall4" parent="worldNodes5" instance=ExtResource("3")]
+transform = Transform3D(1.31134e-07, 0, -1, 0, 1, 0, 1, 0, 1.31134e-07, 5, 3, 0)
+
+[node name="OmniLight3D" type="OmniLight3D" parent="worldNodes5"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 3.8942, 0)
+light_color = Color(0.921569, 0.866667, 0.0313726, 1)
+light_energy = 1.32
+light_indirect_energy = 16.0
+omni_range = 16.0
