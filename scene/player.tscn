@@ -1,6 +1,6 @@
 [gd_scene load_steps=5 format=3 uid="uid://2s0oth74dthn"]
 
-[ext_resource type="Script" uid="uid://b0gqnbxlfj7uy" path="res://script/player.gd" id="1_swka4"]
+[ext_resource type="Script" uid="uid://dxi6oekk174ma" path="res://script/player.gd" id="1_swka4"]
 [ext_resource type="PackedScene" uid="uid://b3itrgr2kr0yr" path="res://scene/ui.tscn" id="2_3egar"]
 
 [sub_resource type="CapsuleMesh" id="CapsuleMesh_s1dvw"]
