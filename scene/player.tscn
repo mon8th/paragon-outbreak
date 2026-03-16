@@ -1,7 +1,8 @@
-[gd_scene load_steps=5 format=3 uid="uid://2s0oth74dthn"]
+[gd_scene load_steps=6 format=3 uid="uid://2s0oth74dthn"]
 
 [ext_resource type="Script" uid="uid://dxi6oekk174ma" path="res://script/player.gd" id="1_swka4"]
 [ext_resource type="PackedScene" uid="uid://b3itrgr2kr0yr" path="res://scene/ui.tscn" id="2_3egar"]
+[ext_resource type="PackedScene" uid="uid://dokfn5flqwrmx" path="res://scene/restart.tscn" id="3_fvtld"]
 
 [sub_resource type="CapsuleMesh" id="CapsuleMesh_s1dvw"]
 
@@ -30,3 +31,7 @@ collision_mask = 3
 [node name="ui" parent="." instance=ExtResource("2_3egar")]
 
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+
+[node name="Restart" parent="." instance=ExtResource("3_fvtld")]
+process_mode = 2
+visible = false

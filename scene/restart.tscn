@@ -1,0 +1,71 @@
+[gd_scene load_steps=3 format=3 uid="uid://dokfn5flqwrmx"]
+
+[ext_resource type="Script" uid="uid://c86bjt4lu1gxh" path="res://script/restart.gd" id="1_7hyfl"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_0wxc3"]
+font_size = 88
+outline_size = 3
+outline_color = Color(0, 0, 0, 1)
+shadow_size = 4
+shadow_color = Color(0, 0, 0, 1)
+
+[node name="CanvasLayer" type="CanvasLayer"]
+process_mode = 2
+script = ExtResource("1_7hyfl")
+
+[node name="Panel" type="Panel" parent="."]
+anchors_preset = -1
+anchor_right = 0.9990001
+anchor_bottom = 0.938
+offset_right = 0.15185547
+offset_bottom = 0.17596436
+mouse_filter = 2
+
+[node name="ColorRect" type="ColorRect" parent="Panel"]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -576.0
+offset_top = -604.0
+offset_right = 587.5
+offset_bottom = 39.0
+grow_horizontal = 2
+grow_vertical = 0
+mouse_filter = 2
+color = Color(0.8, 0.21176471, 0.078431375, 1)
+
+[node name="gameover" type="Label" parent="Panel"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.218
+anchor_top = 0.88
+anchor_right = 0.314
+anchor_bottom = 0.944
+offset_left = -37.918
+offset_top = -373.03998
+offset_right = 592.586
+offset_bottom = -192.95203
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 150
+text = "GAME OVER"
+label_settings = SubResource("LabelSettings_0wxc3")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 1
+
+[node name="Restart" type="Button" parent="Panel"]
+process_mode = 2
+custom_minimum_size = Vector2(300, 80)
+layout_mode = 0
+offset_left = 427.0
+offset_top = 393.0
+offset_right = 761.0
+offset_bottom = 473.0
+keep_pressed_outside = true
+text = "RESTART"
+
+[connection signal="pressed" from="Panel/Restart" to="Panel/Restart" method="_on_pressed"]
