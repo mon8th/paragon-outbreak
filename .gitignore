@@ -6,3 +6,6 @@
 
 # Godot exports (optional if you want to keep export in repo, remove this line)
 # export/
+*.exe
+*.pck
+*.console.exe

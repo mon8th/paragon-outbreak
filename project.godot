@@ -13,6 +13,7 @@ config_version=5
 config/name="paragonOutbreak"
 run/main_scene="uid://dv3jruy6tpruu"
 config/features=PackedStringArray("4.5", "GL Compatibility")
+boot_splash/image="uid://cdbmar2o7w2qk"
 config/icon="res://icon.svg"
 
 [autoload]
