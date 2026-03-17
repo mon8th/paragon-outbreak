@@ -87,7 +87,6 @@ After navigating through the maze and surviving the final encounter, the player 
 | Zombie sprites              | Realm667 contributors |  https://www.realm667.com | 
 | Sound effects               | Itch.io               |  https://itch.io/         |
 
-I learned the base raycasting style from this YouTube tutorial series and then adapted it into my own project: https://www.youtube.com/@OutbackNerd
 ---
 
 ## AI Usage Disclosure
@@ -139,3 +138,5 @@ Paragon International University
 * Expand level design
 
 ---
+
+I learned the base raycasting style from this YouTube tutorial series and then adapted it into my own project: https://www.youtube.com/@OutbackNerd
