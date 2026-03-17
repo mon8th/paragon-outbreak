@@ -1,7 +1,9 @@
 extends CharacterBody3D
-const SPEED = 20.0
-const TURN_SPEED = 0.10
+
+const SPEED = 10.0
+const TURN_SPEED = 0.08
 const KNIFE_RANGE = 2.0
+
 @onready var ui_script = $ui
 @onready var ray = $Camera3D/RayCast3D
 @onready var sound_player = $AudioStreamPlayer
@@ -9,6 +11,7 @@ const KNIFE_RANGE = 2.0
 @onready var ending_video = $"../CanvasLayer/EndingVideo"
 @onready var black_overlay = $"../CanvasLayer/ColorRect"
 @onready var dialog_label = $"../CanvasLayer/Label"
+
 var gravity = ProjectSettings.get_setting("physics/3d/default_gravity")
 var is_dead = false
 var end_position = Vector3(250.69, 0.22, -29.25)
