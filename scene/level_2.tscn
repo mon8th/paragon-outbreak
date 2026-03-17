@@ -125,7 +125,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -13.8792, 0, 13.6438)
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -16.2806, 1.90735e-06, 1.19136)
 
 [node name="guard4" parent="." instance=ExtResource("3_mst1j")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12.5403, -1.90735e-06, 1.2027)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12.5403, 0.73232317, 1.2027)
 
 [node name="ammo" parent="." instance=ExtResource("4_6qy2p")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.11584, -1.90735e-06, 15.4088)
@@ -138,3 +138,6 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 11.9065, 0, -13.5555)
 
 [node name="Player" parent="." instance=ExtResource("5_ey5ig")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 14.1867, 0, -12.557)
+
+[node name="guard5" parent="." instance=ExtResource("3_mst1j")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.090838, 0.6745647, -12.152929)
