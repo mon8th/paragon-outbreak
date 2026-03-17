@@ -86,6 +86,7 @@ After navigating through the maze and surviving the final encounter, the player 
 | Wall / environment textures | Itch.io               |  https://itch.io/         |
 | Zombie sprites              | Realm667 contributors |  https://www.realm667.com | 
 | Sound effects               | Itch.io               |  https://itch.io/         |
+| Office Materials            | sketchfab             |  https://sketchfab.com/3d-models/60s-office-props-dc00ea320cfa4aad90811080270672db  |
 
 ---
 
