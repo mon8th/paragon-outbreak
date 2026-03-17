@@ -348,11 +348,12 @@ animations = [{
 script = ExtResource("1_kee8w")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
-position = Vector2(550, 487)
-scale = Vector2(5, 5)
+position = Vector2(574, 432)
+scale = Vector2(4.9843736, 5.625)
 sprite_frames = SubResource("SpriteFrames_omrw1")
 animation = &"stab"
 autoplay = "knife_idle"
+offset = Vector2(9.800011, 8.199997)
 
 [node name="ColorRect" type="ColorRect" parent="."]
 anchors_preset = 7
@@ -538,6 +539,22 @@ offset_bottom = 1.23201
 grow_horizontal = 2
 grow_vertical = 2
 text = "WEAPON"
+label_settings = SubResource("LabelSettings_yt61g")
+horizontal_alignment = 1
+
+[node name="Label7" type="Label" parent="."]
+anchors_preset = -1
+anchor_left = 0.4
+anchor_top = 0.70100003
+anchor_right = 0.559
+anchor_bottom = 0.82400006
+offset_left = 17.199982
+offset_top = -147.24802
+offset_right = 17.008972
+offset_bottom = -147.0221
+grow_horizontal = 2
+grow_vertical = 2
+text = "+"
 label_settings = SubResource("LabelSettings_yt61g")
 horizontal_alignment = 1
 
