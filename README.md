@@ -121,7 +121,7 @@ All final implementation, integration, and design decisions were done manually b
 ## Optional Deployment
 
 Live preview (if applicable):
-👉 https://paragon-outbreak.vercel.app
+👉 https://paragon-outbreak-git-main-mon8ths-projects.vercel.app/paragon-web/index.html
 
 ---
 
